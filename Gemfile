@@ -32,9 +32,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# We want to easily style dates
 gem 'stamp'
 
+# We don't want WEBrick
+gem 'thin'
+
 group :development, :test do
+  #Quiet those assets down
+  gem 'quiet_assets'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
