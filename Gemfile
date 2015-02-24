@@ -38,6 +38,9 @@ gem 'stamp'
 # We don't want WEBrick
 gem 'thin'
 
+# adding font-awesomeness
+gem 'font-awesome-rails'
+
 group :development, :test do
   #Quiet those assets down
   gem 'quiet_assets'
