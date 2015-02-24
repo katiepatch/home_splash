@@ -13,5 +13,6 @@ class HomeController < ApplicationController
       when 20..23, 0..4
         "Good Night!"
       end
+      @year = Time.now.year
   end
 end
