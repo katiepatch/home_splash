@@ -10,6 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
@@ -31,4 +32,20 @@ html {
   padding-top: 1em;
   color: white;
   left: 0;
+}
+
+/* unvisited link */
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+#footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+/* mouse over link */
+#footer a:hover {
+    color: rgba(0, 0, 0, 0.2);
 }
