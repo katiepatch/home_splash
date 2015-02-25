@@ -5,13 +5,13 @@ class HomeController < ApplicationController
     # Adjust message by time of day
     @greet_message = case right_now.hour
       when 5..11
-        "Good Morning!"
+        "Good Morning! <i class='fa fa-sun-o'></i>".html_safe
       when 12..15
-        "Good Afternoon!"
+        "Good Afternoon! <i class='fa fa-sun-o'></i>".html_safe
       when 16..19
-        "Good Evening!"
+        "Good Evening! <i class='fa fa-moon-o'></i>".html_safe
       when 20..23, 0..4
-        "Good Night!"
+        "Good Night! <i class='fa fa-star'></i>".html_safe
       end
       @year = Time.now.year
   end
