@@ -19,6 +19,9 @@ html {
   font-family: helvetica;
   color: #FFF;
   font-size: 20px;
+  background-image: url(http://animalsadda.com/wp-content/uploads/2013/04/Adelie-Penguin-4.jpg);
+  background-position: center;
+  background-attachment: fixed;
   background-color: #9BE5D3;
 }
 
