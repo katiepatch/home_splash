@@ -42,6 +42,9 @@ gem 'thin'
 gem 'font-awesome-rails'
 
 group :development, :test do
+  # Gives great puts functionality
+  gem 'awesome_print'
+
   #Quiet those assets down
   gem 'quiet_assets'
 
