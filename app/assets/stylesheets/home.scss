@@ -24,9 +24,11 @@
 
 #quote {
   position: absolute;
-  width: 100%;
+  width: 40%;
   bottom: 5em;
   text-align: center;
+  margin-left: 30%;
+  margin-right: auto;
   &:before {
     content: open-quote;
   }
