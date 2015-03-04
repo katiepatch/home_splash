@@ -8,7 +8,7 @@
   width: 100%;
   position: absolute;
   line-height: 1em;
-  text-shadow: 3px 3px black;
+  // text-shadow: 3px 3px black;
 
   #clock {
     font-family: impact;
@@ -19,5 +19,18 @@
     font-family: 'Lobster';
     font-size: 3em;
     color: gold;
+  }
+}
+
+#quote {
+  position: absolute;
+  width: 100%;
+  bottom: 5em;
+  text-align: center;
+  &:before {
+    content: open-quote;
+  }
+  &:after {
+    content: close-quote;
   }
 }

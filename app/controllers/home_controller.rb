@@ -13,6 +13,8 @@ class HomeController < ApplicationController
       when 20..23, 0..4
         "Good Night! <i class='fa fa-star'></i>".html_safe
       end
+      @quote = Quote.all.sample.quip
       @year = Time.now.year
+
   end
 end
