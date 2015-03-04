@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Quote.create(quip: "Wherever you go there you are!")
-Quote.create(quip: "Something Witty")
-Quote.create(quip: "Second mouse gets the cheese")
-Quote.create(quip: "Fool-proof should not be a challenge")
+Quote.create(quip: "We ourselves are the path.")
+Quote.create(quip: "The mind is everything. What you think you become.")
+Quote.create(quip: "To keep the body in good health is a duty... otherwise we shall not be able to keep the mind strong and clear.")
