@@ -41,7 +41,11 @@ gem 'thin'
 # adding font-awesomeness
 gem 'font-awesome-rails'
 
+# User auth with clearance
+gem 'clearance'
+
 group :development, :test do
+
   # Gives great puts functionality
   gem 'awesome_print'
 
