@@ -34,7 +34,7 @@ body {
 
 #clearance_links {
   font-size: 0.8em;
-  padding: 0.8em;
+  padding: 0.7em;
     a {
     color: white;
     text-decoration: none;
@@ -49,6 +49,26 @@ body {
     &:hover {
       color: gold;
     }
+  }
+}
+
+#clearance {
+  background-color: rgba(0,0,0,0.5);
+  padding: 1em 3em 3em 3em;
+  border-radius: 2em;
+  margin: 0 auto;
+  text-align: center;
+  width: 15em;
+  a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      color: gold;
+    }
+  }
+  div {
+    padding-top: 0.5em;
   }
 }
 
@@ -75,7 +95,7 @@ body {
     }
     /* mouse over link */
     &:hover {
-      color: rgba(0, 0, 0, 0.4);
+      color: gold;
     }
   }
 }
