@@ -15,10 +15,12 @@
  *= require_self
  */
 
+
 html {
   font-family: helvetica;
   color: #FFF;
   font-size: 20px;
+
 }
 
 body {
@@ -28,6 +30,46 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-color: #9BE5D3;
+}
+
+#clearance_links {
+  font-size: 0.8em;
+  padding: 0.7em;
+    a {
+    color: white;
+    text-decoration: none;
+    display: block;
+
+    /* visited link */
+    &:visited {
+      color: white;
+      text-decoration: none;
+    }
+    /* mouse over link */
+    &:hover {
+      color: gold;
+    }
+  }
+}
+
+#clearance {
+  background-color: rgba(0,0,0,0.5);
+  padding: 1em 3em 3em 3em;
+  border-radius: 2em;
+  margin: 0 auto;
+  text-align: center;
+  width: 15em;
+  a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      color: gold;
+    }
+  }
+  div {
+    padding-top: 0.5em;
+  }
 }
 
 #footer {
@@ -53,7 +95,7 @@ body {
     }
     /* mouse over link */
     &:hover {
-      color: rgba(0, 0, 0, 0.2);
+      color: gold;
     }
   }
 }

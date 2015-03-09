@@ -41,12 +41,13 @@ gem 'thin'
 # adding font-awesomeness
 gem 'font-awesome-rails'
 
+# User auth with clearance
+gem 'clearance'
+
 group :development, :test do
+
   # Gives great puts functionality
   gem 'awesome_print'
-
-  #Quiet those assets down
-  gem 'quiet_assets'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -56,5 +57,14 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :development do
+
+  # adding mail opening abilities
+  gem 'letter_opener'
+
+    #Quiet those assets down
+  gem 'quiet_assets'
 end
 
