@@ -6,15 +6,14 @@ class HomeController < ApplicationController
     @greet_message = case right_now.hour
       when 5..11
         "Good Morning! <i class='fa fa-sun-o'></i>".html_safe
-      when 12..15
+      when 12..16
         "Good Afternoon! <i class='fa fa-sun-o'></i>".html_safe
-      when 16..19
+      when 17..19
         "Good Evening! <i class='fa fa-moon-o'></i>".html_safe
       when 20..23, 0..4
         "Good Night! <i class='fa fa-star'></i>".html_safe
       end
       @quote = Quote.all.sample.quip
-      @year = Time.now.year
-
+      @year = right_now.year
   end
 end

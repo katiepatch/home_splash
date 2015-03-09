@@ -8,7 +8,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div id="clearance_links">
+  <div id="clearance_links" class="shadowed">
     <% if signed_in? %>
       Welcome <%= current_user.email %>
       <%= link_to (fa_icon "sign-out", text: "Sign Out?"), sign_out_path, method: :delete %>
