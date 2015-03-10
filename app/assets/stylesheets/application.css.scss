@@ -55,7 +55,7 @@ body {
 #clearance {
   background-color: rgba(0,0,0,0.5);
   padding: 1em 3em 3em 3em;
-  border-radius: 2em;
+  border-radius: 0.5em;
   margin: 0 auto;
   text-align: center;
   width: 15em;
@@ -70,7 +70,26 @@ body {
   div {
     padding-top: 0.5em;
   }
+  .other-links{
+    font-size: 0.7em;
+    margin-top: 2em;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 0.5em;
+    a {
+      padding: 2px;
+    }
+  }
 }
+
+ .flash.notice {
+    background-color: rgba(255,0,0,0.6);
+    padding: 2em;
+    width: 35%;
+    margin: 0.5em auto;
+    border-radius: .5em;
+    text-align: center;
+  }
 
 #footer {
   position: absolute;
