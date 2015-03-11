@@ -29,6 +29,7 @@
   text-align: center;
   margin-left: 30%;
   margin-right: auto;
+
   &:before {
     content: open-quote;
   }
@@ -36,3 +37,14 @@
     content: close-quote;
   }
 }
+
+#author {
+  position: absolute;
+  width: 40%;
+  bottom: 3em;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: auto;
+  }
+
+

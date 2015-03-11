@@ -52,7 +52,7 @@ body {
   }
 }
 
-#clearance {
+#clearance, #scaffolding {
   background-color: rgba(0,0,0,0.5);
   padding: 1em 3em 3em 3em;
   border-radius: 0.5em;
@@ -70,7 +70,8 @@ body {
   div {
     padding-top: 0.5em;
   }
-  .other-links{
+
+.other-links{
     font-size: 0.7em;
     margin-top: 2em;
     padding: 10px;
@@ -82,7 +83,7 @@ body {
   }
 }
 
- .flash.notice {
+.flash.notice {
     background-color: rgba(255,0,0,0.6);
     padding: 2em;
     width: 35%;
@@ -91,7 +92,8 @@ body {
     text-align: center;
   }
 
-#footer {
+
+#footer{
   position: absolute;
   bottom: 0;
   width: 100%;
