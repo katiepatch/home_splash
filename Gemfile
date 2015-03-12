@@ -72,7 +72,9 @@ group :development do
 end
 
 group :production do
-  #Use PostgreSQL for production
+  # Use PostgreSQL for production
   gem 'pg'
+  # Enable all platform features
+  gem 'rails_12factor'
 end
 
