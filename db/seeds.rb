@@ -6,7 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Quote.create(quip: "Wherever you go there you are!", author: "Buddha")
 Quote.create(quip: "We ourselves are the path.", author: "Buddha")
 Quote.create(quip: "The mind is everything. What you think you become.", author: "Buddha")
 Quote.create(quip: "To keep the body in good health is a duty... otherwise we shall not be able to keep the mind strong and clear.", author: "Buddha")
