@@ -15,11 +15,4 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function() {
 
-$(".quote-box").hover(function() {
-      $("#author").fadeIn( 500 );
-    }, function(){
-      $("#author").fadeOut( 200 );
-    });
-});
