@@ -7,26 +7,28 @@
   position: relative;
   margin-top: 15%;
   width: 100%;
-  line-height: 1em;
+  // line-height: 1em;
   // text-shadow: 3px 3px black;
 
   #clock {
     font-family: impact;
     font-size: 4.3em;
+    margin-bottom: 0;
   }
 
   #greeting {
     font-family: 'Lobster';
     font-size: 3em;
     color: gold;
+    margin-top: 0;
   }
 }
 
 #quote {
-  position: absolute;
+  position: relative;
   width: 40%;
-  bottom: 5em;
   text-align: center;
+  margin-top: 4em;
   margin-left: 30%;
   margin-right: auto;
 
@@ -40,7 +42,7 @@
 
 #author {
   display: none;
-  position: absolute;
+  position: relative;
   width: 40%;
   bottom: 3em;
   text-align: center;
